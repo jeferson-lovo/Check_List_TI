@@ -13,7 +13,7 @@
   <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="{{-- TODO --}}">Serviços</a>
+        <a class="navbar-brand" href="{{ route('index') }}">Serviços</a>
         <button class="navbar-toggler"
             type="button" data-toggle="collapse" data-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,13 +22,13 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href={{--  -- TODO --}}>Fabricantes</a>
+                    <a class="nav-link" href={{ route('chamados') }}>Breve chamados</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href={{--  -- TODO --}}>Marcas</span></a>
+                    <a class="nav-link" href={{ route('inventario') }}>Breve inventario</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href={{--  -- TODO --}}>Novo Serviços</a>
+                    <a class="nav-link" href={{ route('NovoCKL') }}>Novo ChekList</a>
                 </li>
             </ul>
             <span class="navbar-text">

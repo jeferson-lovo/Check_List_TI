@@ -15,4 +15,20 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index1');
-});
+})->name('index');
+
+Route::get('/log', function () {
+    return view('login');
+})->name('login');
+
+Route::get('/novockl', function () {
+    return view('chekList');
+})->name('NovoCKL');
+
+Route::get('/chamados', function () {
+    return view('chamados');
+})->name('chamados');
+
+Route::get('/inventario', function () {
+    return view('inventario');
+})->name('inventario');
