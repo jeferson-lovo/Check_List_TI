@@ -1,3 +1,12 @@
+<!-- Jeferson Lovo -->
+<!-- jefersonlovo2009@hotmai.com -->
+<!-- https://www.linkedin.com/in/jeferson-lovo-2025/ -->
+<!-- jefersonlovo@fundacaomt.com.br -->
+
+<!-- Pagina Modelo  -->
+<!-- todas a demais paginas devem ser estendidas desta pagina para manter o modelo padrão -->
+<!-- aqui está a formatação css Bootstrap JS -->
+
 <!doctype html>
 <html lang="pt-br">
   <head>

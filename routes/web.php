@@ -32,3 +32,7 @@ Route::get('/chamados', function () {
 Route::get('/inventario', function () {
     return view('inventario');
 })->name('inventario');
+
+Route::get('/lista', function () {
+    return view('lchecklist');
+})->name('lista');
